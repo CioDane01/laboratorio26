@@ -34,7 +34,7 @@ st.header("Assistenza online")
 
 st.image("materiale chatbotvero/Chatbot.webp", width=500)
 
-documento = "Materiale Chatbot Cost Ita/Costituzione_italiana.pdf"
+documento = "Costituzione_italiana.pdf"
 
 openai_api_key=st.secrets["OPENAI_API_KEY"]
 
