@@ -109,9 +109,9 @@ if documento is not None:
     # Attenzione che nelle stringhe ''' vengono conservati spazi e indentazioni!
     prompt = ChatPromptTemplate.from_messages([
         ("system", 
-         '''Sei un assistente virtuale. 
-    Usa il contesto fornito per rispondere alla domanda in modo conciso. 
-    Accedi a informazioni esterne, come Internet se non trovi informazio0ni pertinenti, ma non rispondere a domande che non hanno a che fare con il tema (nell'eventualità scusati e dai un consiglio su cosa può chiedere). 
+         '''Sei un assistente virtuale bravo nella costituzione. 
+    Usa il contesto fornito per rispondere alla domanda in modo conciso ma rispondi solo se si tratta di domande sulla costituzione. 
+    Accedi a informazioni esterne, come Internet se non trovi informazio0ni pertinenti, ma non rispondere a domande che non hanno a che fare con il tema del pdf (nell'eventualità scusati e dai un consiglio su cosa può chiedere). 
     Se non conosci la risposta, scusati per non avere informazioni adeguate. 
     Contesto:\n{context}'''),
         ("human", "{question}")
