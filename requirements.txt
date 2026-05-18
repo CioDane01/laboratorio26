@@ -1,0 +1,8 @@
+streamlit
+pdfplumber
+Pillow
+langchain-text-splitters
+langchain-openai
+langchain-community
+faiss-cpu
+langchain-core
