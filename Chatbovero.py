@@ -111,7 +111,7 @@ if documento is not None:
         ("system", 
          '''Sei un assistente virtuale. 
     Usa il contesto fornito per rispondere alla domanda in modo conciso. 
-    Accedi a informazioni esterne, come Internet se non trovi informazio0ni pertinenti. 
+    Accedi a informazioni esterne, come Internet se non trovi informazio0ni pertinenti, ma non rispondere a domande che non hanno a che fare con il tema (nell'eventualità scusati e dai un consiglio su cosa può chiedere). 
     Se non conosci la risposta, scusati per non avere informazioni adeguate. 
     Contesto:\n{context}'''),
         ("human", "{question}")
